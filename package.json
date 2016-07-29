@@ -1,0 +1,18 @@
+{
+  "name": "j-quote",
+  "version": "1.0.0",
+  "description": "Takes a block of text with quotes and line-returns and applies Java escaping",
+  "main": "j-quote.js",
+  "bin": {
+    "j-quote": "./j-quote-command.js"
+  },
+  "scripts": {
+    "test": ". test/test.sh"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "console-in-transformer": "^1.0.0",
+    "lodash": "^4.13.1"
+  }
+}
