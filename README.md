@@ -8,6 +8,7 @@ can be accepted into Java code.
 Accepts a string as an argument, returns a transformed string.
 
 > var jQuote = require('j-quote')
+>
 > var quoted = jQuote(unquoted)
 
 ## Command Line Invocation
