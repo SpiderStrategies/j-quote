@@ -1,6 +1,6 @@
 {
   "name": "j-quote",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Takes a block of text with quotes and line-returns and applies Java escaping",
   "main": "j-quote.js",
   "bin": {
@@ -9,7 +9,11 @@
   "scripts": {
     "test": ". test/test.sh"
   },
-  "author": "",
+  "repository": {
+	  "type": "git",
+	  "url": "https://github.com/SpiderStrategies/j-quote"
+  },
+  "author": "Dan Kolz",
   "license": "ISC",
   "dependencies": {
     "console-in-transformer": "^1.0.0",
